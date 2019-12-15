@@ -2633,7 +2633,20 @@ figure:hover figcaption, figure:focus figcaption {
   background: rgba(0, 0, 0, 0.9);
 }
 .selveval{
-
   width: 33.5%;
-
 }
+
+@media screen and (max-width: 768px) {
+  .selveval {
+    width: 100%;
+  }
+
+ @media screen and (max-width: 480px) {
+    .selveval {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+@media screen and (max-width: 900px) {
+   .selveval {
+    width: 100%;
+  }
